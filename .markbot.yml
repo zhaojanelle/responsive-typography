@@ -51,7 +51,7 @@ css:
       - ['@media.+\(.*px', 'Pixel units should not be used in media queries — use `em` instead']
       - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
       - ['line-height\s*:\s*.+(px|rem|em)', 'Line heights should not have units']
-      - ['float:', 'Float isn’t needed to accomplish this assignment.']
+      - ['float:', 'Float isn’t needed to accomplish this assignment']
 
 screenshots:
   - path: "index.html"
