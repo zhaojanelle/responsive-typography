@@ -1,0 +1,58 @@
+repo: "responsive-typography"
+canvasCourse: "467502"
+canvasAssignment: "4178347"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    locked: true
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+      - ['html', 'text-size-adjust', '100%']
+      - ['html', '-moz-text-size-adjust', '100%']
+      - ['html', '-ms-text-size-adjust', '100%']
+      - ['html', '-webkit-text-size-adjust', '100%']
+      - ['*', 'box-sizing', 'inherit']
+      - ['body', 'margin', '0']
+      - ['article']
+      - ['article header']
+      - ['article h1']
+      - ['article header p']
+      - ['article p']
+      - ['article ol']
+      - ['blockquote']
+      - ['.quote']
+    search:
+      - '@-moz-viewport'
+      - '@-ms-viewport'
+      - '@-o-viewport'
+      - '@-webkit-viewport'
+      - '@viewport'
+      - '@media only screen and \(min-width: 38em\) \{'
+      - '@media only screen and \(min-width: 60em\) \{'
+      - '@media only screen and \(min-width: 90em\) \{'
+      - '100%'
+      - '110%'
+      - '120%'
+      - '130%'
+      - '1\.3'
+      - '1\.4'
+      - '1\.5'
+      - 'Crimson Text'
+    search_not:
+      - ['@media.+\(.*max-width', 'Media queries with `max-width` should not be used — use `min-width` instead']
+      - ['@media.+\(.*px', 'Pixel units should not be used in media queries — use `em` instead']
+      - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
+      - ['line-height\s*:\s*.+(px|rem|em)', 'Line heights should not have units']
+      - ['float:', 'Float isn’t needed to accomplish this assignment.']
+
+screenshots:
+  - path: "index.html"
+    sizes: [320, 400, 650, 980, 1400]
