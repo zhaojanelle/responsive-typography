@@ -1,11 +1,12 @@
-# Responsive typography
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file**
-
+---
+summary: 'Use media queries to enhance the typography of a website for different screen sizes.'
+time: '1 hour'
+deliverables: '1 HTML file, 1 CSS file'
 ---
 
-**Use media queries to enhance the typography of a website for different screen sizes.**
+# Responsive typography
+
+## Overview
 
 - *Fork this repository.*
 - Add the correct responsive typography properties to the content of this website.
@@ -32,7 +33,7 @@
 
 Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
-- [Final screenshots in the “screenshots” folder.](screenshots)
+- Final screenshots in the “screenshots” folder.
 - [**Watch this video to see how it interacts.**](https://youtu.be/5oL8ygORRjg)
 
 ---
