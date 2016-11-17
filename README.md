@@ -24,6 +24,7 @@ deliverables: '1 HTML file, 1 CSS file'
 
 ## Details
 
+- *Typefaces:* `Crimson Text`
 - *Standard media query widths:* `38em`, `60em`, `90em`
 - *For the best vertical rhythm:* remove the top margins from things & add bottom margins equal to the line-height.
 
