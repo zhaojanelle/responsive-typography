@@ -47,3 +47,44 @@ blockquote {
 .quote {
   color: #999;
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 115%;
+    line-height: 1.5;
+  }
+
+  article {
+    min-width: 42em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  header {
+    margin: 0 0 1.5rem;
+  }
+
+  ol {
+    padding-left: 0;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  blockquote {
+    position: relative;;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
