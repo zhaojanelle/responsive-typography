@@ -24,13 +24,13 @@ body {
 }
 
 header {
-  margin: 0 0 1rem;
+  margin: 0 0 1.3rem;
 }
 
 article {
   max-width: 43em;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1.3rem 1rem;
 }
 
 article h1 {
@@ -48,11 +48,12 @@ article p {
 
 article header p {
   font-style: italic;
+  margin-bottom: 1.3rem;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.3rem;
 }
 
 article ol {
@@ -63,7 +64,7 @@ blockquote {
   max-width: 25em;
   color: #555;
   font-size: 1.125rem;
-  margin: 1.5rem auto;
+  margin: 1.3rem auto;
 }
 
 .quote {
