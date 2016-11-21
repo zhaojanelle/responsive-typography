@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
+  font-family: "Crimson Text"
   color: #222;
 }
 
@@ -39,7 +39,7 @@ article > p:last-child {
 }
 
 blockquote {
-  max-width: 24em;
+  max-width: 25em;
   color: #555;
   font-size: 1.125rem;
 }
@@ -48,10 +48,14 @@ blockquote {
   color: #999;
 }
 
+@media only screen and (min-width: 90em) {
+
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 115%;
+    font-size: 1.15rem;
     line-height: 1.5;
   }
 
@@ -66,7 +70,7 @@ blockquote {
     margin: 0;
   }
 
-  p {
+  article p {
     margin: 0 0 1.5rem;
   }
 
@@ -74,7 +78,7 @@ blockquote {
     margin: 0 0 1.5rem;
   }
 
-  ol {
+  article ol {
     padding-left: 0;
   }
 
@@ -83,8 +87,9 @@ blockquote {
   }
 
   blockquote {
-    position: relative;;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin: 1.5rem 0;
   }
 }
